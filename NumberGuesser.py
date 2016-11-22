@@ -1,4 +1,4 @@
-#Number Guesser.py
+#NumberGuesser.py
 #
 #A program that guesses a players number.
 #A player guesses a number between 1 and 100 inclusive.

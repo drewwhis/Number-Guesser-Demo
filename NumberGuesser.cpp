@@ -1,5 +1,5 @@
 /*
-Number Guesser.c
+NumberGuesser.cpp
 
 A program that guesses a players number.
 A player guesses a number between 1 and 100 inclusive.
@@ -9,13 +9,14 @@ If the computer's guess is too low, the user should enter L.
 Otherwise, the user should enter E.
 */
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main()
 {
 	char answer = ' ';
 
-	printf("Think of a number between 1 and 100, then press Enter.");
+	cout << "Think of a number between 1 and 100, then press Enter.";
 	int low = 1;
 	int high = 100;
 	int mid = (low + high) / 2;
@@ -23,13 +24,13 @@ int main()
 
 	while (answer != 'e' && answer !='E')
 	{
-		answer = getchar();
+		cin.get(answer);
 
-		printf("\n");
-		printf("Is your number %d?\n", mid);
-		printf("Enter H if your number is higher, L if your number is lower, or E if your number is equal: ");
+		cout << endl << "Is your number " << mid << "?" << endl;
+		cout << "Enter H if your number is higher, L if your number is lower, or E if your number is equal: ";
 
-		answer = getchar();
+		cin >> answer;
+
 		if (answer == 'h' || answer == 'H')
 		{
 			low = mid;
@@ -47,18 +48,18 @@ int main()
 		count++;
 	}
 
-	printf("\n");
+	cout << endl;
 
 	if (count > 1)
 	{
-		printf("Guessed the answer in %d guesses!\n", count);
+		cout << "Guessed the answer in " << count << " guesses!" << endl;
 	}
 	else
 	{
-		printf("Guessed the answer in 1 guess!\n");
+		cout << "Guessed the answer in 1 guess!" << endl;
 	}
 
-	printf("Run the program again to play again.\n");
+	cout << "Run the program again to try again." << endl;
 
 	return 0;
 }

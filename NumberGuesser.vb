@@ -1,4 +1,4 @@
-'Number Guesser.vb
+'NumberGuesser.vb
 '
 'A program that guesses a players number.
 'A player guesses a number between 1 and 100 inclusive.
