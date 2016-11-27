@@ -1,4 +1,6 @@
 /*
+This is a Java program.
+
 NumberGuesser.java
 
 A program that guesses a players number.

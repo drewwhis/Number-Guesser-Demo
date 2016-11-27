@@ -1,4 +1,6 @@
 /*
+This is a C++ program.
+
 NumberGuesser.cpp
 
 A program that guesses a players number.

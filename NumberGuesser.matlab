@@ -1,4 +1,6 @@
 /*
+This is an Octave/MATLAB program.
+
 NumberGuesser.matlab
 
 A program that guesses a players number.

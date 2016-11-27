@@ -1,4 +1,6 @@
 /*
+This is a C# (.NET) program.
+
 NumberGuesser.cs
 
 A program that guesses a players number.

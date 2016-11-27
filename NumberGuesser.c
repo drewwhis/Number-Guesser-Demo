@@ -1,4 +1,6 @@
 /*
+This is a C program.
+
 NumberGuesser.c
 
 A program that guesses a players number.

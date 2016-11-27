@@ -1,6 +1,8 @@
 ::
 ::NumberGuesser.bat
 ::
+::This program is a Batch File. It runs on the Windows command line.
+::
 ::A program that guesses a players number.
 ::A player guesses a number between 1 and 100 inclusive.
 ::If the computer's guess is too high, the user should enter H.

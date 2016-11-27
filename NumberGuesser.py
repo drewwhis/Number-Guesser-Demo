@@ -1,3 +1,6 @@
+#
+#This is a Python program.
+#
 #NumberGuesser.py
 #
 #A program that guesses a players number.

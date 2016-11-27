@@ -1,4 +1,6 @@
 /*
+This is a Swift program.
+
 NumberGuesser.swift
 
 A program that guesses a players number.

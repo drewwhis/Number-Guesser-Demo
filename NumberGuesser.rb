@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 #
+# This is a Ruby program.
+#
 # NumberGuesser.rb
 #
 # A program that guesses a players number.

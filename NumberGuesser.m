@@ -1,4 +1,6 @@
 /*
+This is an Objective-C program.
+
 NumberGuesser.m
 
 A program that guesses a players number.

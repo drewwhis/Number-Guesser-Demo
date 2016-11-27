@@ -1,4 +1,6 @@
 /*
+This is a JavaScript program.
+
 NumberGuesser.js
 
 A program that guesses a players number.

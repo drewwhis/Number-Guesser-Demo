@@ -1,3 +1,6 @@
+'
+'This is a Visual Basic (.NET) program.
+'
 'NumberGuesser.vb
 '
 'A program that guesses a players number.

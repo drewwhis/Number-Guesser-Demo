@@ -1,12 +1,14 @@
 #!/bin/bash
-
+#
+# This is a bash program, meant to run in a Unix terminal window.
+#
 # NumberGuesser.bash
-
+#
 # A program that guesses a players number.
 # A player guesses a number between 1 and 100 inclusive.
 # If the computer's guess is too high, the user should enter H.
 # If the computer's guess is too low, the user should enter L.
-
+#
 # Otherwise, the user should enter E.
 #
 

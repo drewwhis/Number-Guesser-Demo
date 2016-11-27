@@ -1,4 +1,7 @@
 <#
+
+This is a Windows Powershell program.
+
 NumberGuesser.ps1
 
 A program that guesses a players number.

@@ -1,4 +1,6 @@
 #
+#This is a Perl program.
+#
 #NumberGuesser.pl
 #
 #A program that guesses a players number.
@@ -53,7 +55,7 @@ if ($count > 1)
 }
 else
 {
-	print"Guessed the answer in 1 guess!\n"; 
+	print "Guessed the answer in 1 guess!\n"; 
 }
 
 print "Run the program again to play again.\n";
