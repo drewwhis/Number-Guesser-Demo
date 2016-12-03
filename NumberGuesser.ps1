@@ -14,7 +14,7 @@ Otherwise, the user should enter E.
 
 $answer = ' '
 $low = 1
-$high = 100
+$high = 101
 $mid = [Math]::Floor([decimal](($low + $high) / 2))
 $count = 1
 

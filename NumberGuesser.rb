@@ -14,7 +14,7 @@
 
 answer = ' '
 low = 1
-high = 100
+high = 101
 mid = (low + high) / 2
 count = 1
 

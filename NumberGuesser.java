@@ -20,7 +20,7 @@ public class NumberGuesser
         Scanner s = new Scanner(System.in);
         char answer = ' ';
         int low = 1;
-        int high = 100;
+        int high = 101;
         int mid = (low + high) / 2;
         int count = 1;
 

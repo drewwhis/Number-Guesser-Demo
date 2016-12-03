@@ -13,7 +13,7 @@ Otherwise, the user should enter E.
 
 var answer = ' ';
 var low = 1;
-var high = 100;
+var high = 101;
 var count = 1;
 var mid = Math.floor((low + high) / 2);
 answer = prompt("Think of a number between 1 and 100, then press Enter.");

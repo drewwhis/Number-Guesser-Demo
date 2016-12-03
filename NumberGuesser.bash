@@ -15,7 +15,7 @@
 clear
 answer=" "
 low=1
-high=100
+high=101
 count=1
 let "mid=$low+$high"
 mid=$(($mid / 2))

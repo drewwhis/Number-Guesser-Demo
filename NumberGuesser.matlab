@@ -13,7 +13,7 @@ Otherwise, the user should enter E.
 
 answer = input("Think of a number between 1 and 100, then press Enter.", "s");
 low = 1;
-high = 100;
+high = 101;
 mid = fix((low + high) / 2);
 count = 1;
 

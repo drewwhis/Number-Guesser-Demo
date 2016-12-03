@@ -13,7 +13,7 @@
 
 my $answer = ' ';
 my $low = 1;
-my $high = 100;
+my $high = 101;
 my $mid = int(($low + $high) / 2);
 my $count = 1;
 

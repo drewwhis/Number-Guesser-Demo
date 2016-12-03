@@ -16,7 +16,7 @@ Public Module modMain
 	Sub Main()
 		Dim answer As Char = Nothing
 		Dim low As Integer = 1
-		Dim high As Integer = 100
+		Dim high As Integer = 101
 		Dim mid As Integer = (low + high) / 2
 		Dim count As Integer = 1
 

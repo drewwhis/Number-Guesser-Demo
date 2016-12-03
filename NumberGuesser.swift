@@ -15,7 +15,7 @@ import Darwin
 var answer = " ";
 print("Think of a number between 1 and 100, then press Enter.", terminator: "");
 var low = 1;
-var high = 100;
+var high = 101;
 var mid = (low + high) / 2;
 var count = 1;
 answer = readLine()!;

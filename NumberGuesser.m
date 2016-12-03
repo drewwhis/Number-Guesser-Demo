@@ -20,7 +20,7 @@ int main(int argc, const char * argv[])
         char answer = ' ';
         printf("Think of a number between 1 and 100, then press Enter.");
         int low = 1;
-        int high = 100;
+        int high = 101;
         int mid = (low + high) / 2;
         int count = 1;
         

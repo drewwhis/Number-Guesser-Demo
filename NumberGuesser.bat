@@ -16,7 +16,7 @@
 SET answer=" "
 SET count=1
 SET low=1
-SET high=100
+SET high=101
 SET /A mid=(low+high)/2
 
 ECHO|SET /p="Think of a number between 1 and 100, then press Enter."

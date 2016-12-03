@@ -14,7 +14,7 @@ answer = str(input("Think of a number between 1 and 100, then press Enter."))
 print("")
 
 lowVal = 1
-highVal = 100
+highVal = 101
 mid = int((lowVal + highVal) / 2)
 count = 1
 
