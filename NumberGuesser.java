@@ -13,10 +13,8 @@ Otherwise, the user should enter E.
 
 import java.util.Scanner;
 
-public class NumberGuesser
-{
-    public static void main(String[] args) 
-    {
+public class NumberGuesser {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         char answer = ' ';
         int low = 1;
@@ -28,23 +26,17 @@ public class NumberGuesser
         s.nextLine();
         System.out.println("");
 
-        while (answer != 'e' && answer != 'E')
-        {
+        while (answer != 'e' && answer != 'E') {
             System.out.println("Is your number " + mid + "?");
             System.out.print("Enter H if your number is higher, L if your number is lower, or E if your number is equal: ");
             answer = (char) s.next().charAt(0);
             System.out.println("");
 
-            if (answer == 'h' || answer == 'H')
-            {
+            if (answer == 'h' || answer == 'H') {
                 low = mid;
-            }
-            else if (answer == 'l' || answer == 'L')
-            {
+            } else if (answer == 'l' || answer == 'L') {
                 high = mid;
-            }
-            else
-            {
+            } else {
                 continue;
             }
 
@@ -52,12 +44,9 @@ public class NumberGuesser
             count++;
         }
 
-        if (count > 1)
-        {
+        if (count > 1) {
             System.out.println("Guessed the answer in " + count + " guesses!");
-        }
-        else
-        {
+        } else {
             System.out.println("Guessed the answer in 1 guess!");
         }
 
